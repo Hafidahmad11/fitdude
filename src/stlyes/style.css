@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Quicksand:wght@500&display=swap");
+
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.banner {
+  background: url("https://img.freepik.com/free-photo/people-working-out-indoors-together-with-dumbbells_23-2149175410.jpg?w=900&t=st=1703939072~exp=1703939672~hmac=b9772a4c621305faa5ad52dba2a64b2fa4d6fb19f4685002da7442ce8cc3e053")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.result-container {
+  color: #ffffff;
+}
+
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+
+.bmi-calculator-section {
+	background: #151515;
+}
+
+.section-title.chart-title {
+	text-align: left;
+}
+
+.section-title span {
+  font-size: 16px;
+  color: #d21e2b;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.section-title h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.custom-bmi{
+  color: #ffffff;
+}
+
+.chart-table table {
+	border: 1px solid #363636;
+	width: 100%;
+}
+
+.chart-table table thead {
+	border-bottom: 1px solid #363636;
+}
+
+.chart-table table thead tr th {
+	background: #060606;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-right: 1px solid #363636;
+	padding: 14px 0 11px 50px;
+}
+
+.chart-table table tbody tr:nth-child(even) {
+	background: #111111;
+}
+
+.chart-table table tbody tr td {
+	font-size: 14px;
+	color: #c4c4c4;
+	border-right: 1px solid #363636;
+	padding: 17px 0 17px 50px;
+}
+
+.chart-table table tbody tr td.point {
+	width: 200px;
+}
+
+.section-title.chart-calculate-title {
+	text-align: left;
+}
+
+.chart-calculate-form p {
+	color: #c4c4c4;
+	margin-bottom: 24px;
+}
+
+.chart-calculate-form form input {
+	font-size: 14px;
+	color: #c4c4c4;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #363636;
+	padding-left: 20px;
+	padding-right: 5px;
+	background: transparent;
+	margin-bottom: 20px;
+}
+
+.chart-calculate-form form input::-webkit-input-placeholder {
+	color: #c4c4c4;
+}
+
+.chart-calculate-form form input::-moz-placeholder {
+	color: #c4c4c4;
+}
+
+.chart-calculate-form form input:-ms-input-placeholder {
+	color: #c4c4c4;
+}
+
+.chart-calculate-form form input::-ms-input-placeholder {
+	color: #c4c4c4;
+}
+
+.chart-calculate-form form input::placeholder {
+	color: #c4c4c4;
+}
+
+.chart-calculate-form form button {
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 100%;
+	border: none;
+	padding: 15px 0;
+	background: #d21e2b;
+}
